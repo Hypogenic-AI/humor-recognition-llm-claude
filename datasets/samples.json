@@ -1,0 +1,196 @@
+{
+  "colbert_humor": {
+    "description": "ColBERT Humor Detection dataset - 200k short texts for humor binary classification",
+    "source": "HuggingFace: CreativeLang/ColBERT_Humor_Detection",
+    "total_samples": 200000,
+    "positive_samples": [
+      {
+        "text": "What do you call a turtle without its shell? dead.",
+        "humor": true
+      },
+      {
+        "text": "What is a pokemon master's favorite kind of pasta? wartortellini!",
+        "humor": true
+      },
+      {
+        "text": "Why do native americans hate it when it rains in april? because it brings mayflowers.",
+        "humor": true
+      },
+      {
+        "text": "My family tree is a cactus, we're all pricks.",
+        "humor": true
+      },
+      {
+        "text": "How are music and candy similar? we throw away the rappers.",
+        "humor": true
+      }
+    ],
+    "negative_samples": [
+      {
+        "text": "Joe biden rules out 2020 bid: 'guys, i'm not running'",
+        "humor": false
+      },
+      {
+        "text": "Watch: darvish gave hitter whiplash with slow pitch",
+        "humor": false
+      },
+      {
+        "text": "5 reasons the 2016 election feels so personal",
+        "humor": false
+      },
+      {
+        "text": "Pasco police shot mexican migrant from behind, new autopsy shows",
+        "humor": false
+      },
+      {
+        "text": "Martha stewart tweets hideous food photo, twitter responds accordingly",
+        "humor": false
+      }
+    ]
+  },
+  "short_jokes": {
+    "description": "231k short jokes from various sources",
+    "source": "HuggingFace: ysharma/short_jokes",
+    "total_samples": 231657,
+    "samples": [
+      {
+        "ID": 1,
+        "Joke": "[me narrating a documentary about narrators] \"I can't hear what they're saying cuz I'm talking\""
+      },
+      {
+        "ID": 2,
+        "Joke": "Telling my daughter garlic is good for you. Good immune system and keeps pests away.Ticks, mosquitos, vampires... men."
+      },
+      {
+        "ID": 3,
+        "Joke": "I've been going through a really rough period at work this week It's my own fault for swapping my tampax for sand paper."
+      },
+      {
+        "ID": 4,
+        "Joke": "If I could have dinner with anyone, dead or alive... ...I would choose alive. -B.J. Novak-"
+      },
+      {
+        "ID": 5,
+        "Joke": "Two guys walk into a bar. The third guy ducks."
+      },
+      {
+        "ID": 6,
+        "Joke": "Why can't Barbie get pregnant? Because Ken comes in a different box. Heyooooooo"
+      },
+      {
+        "ID": 7,
+        "Joke": "Why was the musician arrested? He got in treble."
+      },
+      {
+        "ID": 8,
+        "Joke": "Did you hear about the guy who blew his entire lottery winnings on a limousine? He had nothing left to chauffeur it."
+      },
+      {
+        "ID": 9,
+        "Joke": "What do you do if a bird shits on your car? Don't ask her out again."
+      },
+      {
+        "ID": 10,
+        "Joke": "He was a real gentlemen and always opened the fridge door for me"
+      }
+    ]
+  },
+  "dadjokes": {
+    "description": "Dad jokes with question-response format",
+    "source": "HuggingFace: shuttie/dadjokes",
+    "total_samples": 53400,
+    "train_samples": [
+      {
+        "question": "I asked my priest how he gets holy water",
+        "response": "He said it\u2019s just regular water, he just boils the hell out of it"
+      },
+      {
+        "question": "Life Hack: If you play My Chemical Romance loud enough in your yard",
+        "response": "your grass will cut itself"
+      },
+      {
+        "question": "OMG. SISTERS. JAMES. CHARLES. IS. DOING. A",
+        "response": "GIVEAWAY his career"
+      },
+      {
+        "question": "Why did Mr.  Potato Head get pulled over",
+        "response": "He was baked"
+      },
+      {
+        "question": "On zombie cravings.  My kids and i had some fun with these on a car trip this past weekend.   What do zombie plumbers crave.  Draaaaains.   What do zombie pilots crave.  Planes.  Plaaaanes.   What do zombie conductors crave.  Traaaains.   What do zombie opthalmologists crave.  Fraaames.   What do zombie construction workers crave.  Craaanes.   What do zombie nurses crave.  Paaains.   What do vampires crave",
+        "response": "Blood"
+      }
+    ],
+    "test_samples": [
+      {
+        "question": "There are 10 types of people in this world",
+        "response": "Those who understand binary, and those who don\u2019t"
+      },
+      {
+        "question": "The baker in my town was secretly a noble",
+        "response": "I guess he was well-bread"
+      },
+      {
+        "question": "Macbeth joke in the wild I was at the Oregon Shakespeare Festival waiting for \u201cMacbeth\u201d to begin and next to me this Dad says conversationally to his family, \u201cYou know, It makes sense that this play is set in Scotland",
+        "response": "after all they mostly get kilt\u201d  His family groaned and I gave him props for the Dad joke in the wild"
+      }
+    ]
+  },
+  "reddit_jokes": {
+    "description": "Reddit r/jokes posts with scores",
+    "source": "HuggingFace: SocialGrep/one-million-reddit-jokes (subset)",
+    "total_samples": 100000,
+    "samples": [
+      {
+        "title": "I am soooo glad I'm not circumcised!",
+        "selftext": "My corona is covered with foreskin so it is not exposed to viruses.",
+        "score": 2
+      },
+      {
+        "title": "Did you know Google now has a platform for recording your bowel movements?",
+        "selftext": "It's called Google Sheets.",
+        "score": 9
+      },
+      {
+        "title": "What is the difference between my wife and my vacuum?",
+        "selftext": "The vacuum doesn't snore after sex.\n\n&amp;#x200B;\n\nApril fools, I don't have a wife.",
+        "score": 15
+      },
+      {
+        "title": "My last joke for now.",
+        "selftext": "[removed]",
+        "score": 9
+      },
+      {
+        "title": "The Nintendo 64 turns 18 this week...",
+        "selftext": "[removed]",
+        "score": 134
+      },
+      {
+        "title": "Sex with teacher.",
+        "selftext": "[removed]",
+        "score": 1
+      },
+      {
+        "title": "Another long one.",
+        "selftext": "[removed]",
+        "score": 8
+      },
+      {
+        "title": "What did the French man say to the attractive teletubby?",
+        "selftext": "Oo..lala...",
+        "score": 2
+      },
+      {
+        "title": "A Priest takes a walk down to the docks one day",
+        "selftext": "[removed]",
+        "score": 88
+      },
+      {
+        "title": "A long joke.",
+        "selftext": "[removed]",
+        "score": 4
+      }
+    ]
+  }
+}
